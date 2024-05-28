@@ -21,3 +21,9 @@ Logout System: Enables users to securely log out.
 Task Management Area: Users can write, view, and manage their tasks, events, and important notes.
 
 Developed using Android Studio, this app utilizes XML for a user-friendly interface and Java for the core functionality. SQLite is used for data storage, enabling users to delete their data permanently if needed.
+
+
+TASK 3 - Calculator App
+
+The Calculator application is a straightforward and essential tool for anyone learning Android development and Java programming. This app takes input values and the desired operation from the user, then computes and displays the result. It's an ideal project for beginners as it doesn't require the use of any complex packages.
+
