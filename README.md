@@ -41,4 +41,14 @@ Immediate feedback on whether the selected answer is correct or incorrect.
 Display of final score at the end of the quiz.
 
 
+TASK 5 - Stopwatch App : 
 
+The Stopwatch application is a simple Android project that functions like a traditional handheld timepiece. It measures the time elapsed between its activation and deactivation, providing an intuitive and user-friendly interface. This app features three main buttons: start, stop, and hold, enabling users to easily control the stopwatch.
+
+Features
+
+Start Button: Begins the timing.
+
+Stop Button: Stops the timing.
+
+Hold Button: Pauses the timing without resetting.
