@@ -22,8 +22,23 @@ Task Management Area: Users can write, view, and manage their tasks, events, and
 
 Developed using Android Studio, this app utilizes XML for a user-friendly interface and Java for the core functionality. SQLite is used for data storage, enabling users to delete their data permanently if needed.
 
-
-TASK 3 - Calculator App
+TASK 3 - Calculator App :
 
 The Calculator application is a straightforward and essential tool for anyone learning Android development and Java programming. This app takes input values and the desired operation from the user, then computes and displays the result. It's an ideal project for beginners as it doesn't require the use of any complex packages.
+
+TASK 4 - Quiz App :
+
+The Quiz application provides users with quizzes on various general knowledge topics, making it an excellent practice tool for learning Android application development. This app helps you set up layouts and use various layout components effectively, enhancing your understanding of Android development.
+
+Features
+
+Multiple-choice questions on general knowledge topics.
+
+User-friendly interface for selecting and submitting answers.
+
+Immediate feedback on whether the selected answer is correct or incorrect.
+
+Display of final score at the end of the quiz.
+
+
 
