@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuestion"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rbOption1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:buttonTint="@color/white"
+            android:text="Option 1"/>
+
+        <RadioButton
+            android:id="@+id/rbOption2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/white"
+            android:text="Option 2"/>
+
+        <RadioButton
+            android:id="@+id/rbOption3"
+            android:layout_width="350dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:text="Option 3"/>
+
+        <RadioButton
+            android:id="@+id/rbOption4"
+            android:layout_width="350dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Option 4"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/rgOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
